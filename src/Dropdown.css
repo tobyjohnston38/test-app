@@ -2,11 +2,14 @@
   width: 100px;
   height: 20px;
   border: 2px solid black;
+  position: absolute; left: 150px; top: 300px;
   cursor: pointer;
 }
 
 .panel {
   width: 100px;
   height: 100px;
-  border: 1px solid red;
+  border: 2px solid red;
+  position: absolute; left: 150px; top: 324px;
+
 }
