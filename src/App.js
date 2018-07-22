@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Dropdown from './Dropdown'
 import Dropup from './Dropup'
+import Dropleft from './Dropleft'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Dropdown />
         <Dropup />
+        <Dropleft />
       </div>
     );
   }
