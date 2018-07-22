@@ -4,6 +4,7 @@ import './App.css';
 import Dropdown from './Dropdown'
 import Dropup from './Dropup'
 import Dropleft from './Dropleft'
+import Dropright from './Dropright'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Dropdown />
         <Dropup />
         <Dropleft />
+        <Dropright />
       </div>
     );
   }
