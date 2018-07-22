@@ -16,7 +16,7 @@ export default class Dropdown extends Component {
   render() {
     return (
       <div onClick ={this.toggle} >
-        <div className="container">test</div>
+        <div className="container">Drop-down</div>
         {this.state.open && <div className="panel"/>}
       </div>
     );
