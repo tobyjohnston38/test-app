@@ -23,6 +23,10 @@ class App extends Component {
         <Dropup />
         <Dropleft />
         <Dropright />
+        <footer className="App-footer">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="footer-message">Fooooooter</h1>
+        </footer>
       </div>
     );
   }
