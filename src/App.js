@@ -5,6 +5,7 @@ import Dropdown from './Dropdown'
 import Dropup from './Dropup'
 import Dropleft from './Dropleft'
 import Dropright from './Dropright'
+import Drops from './Drops'
 
 class App extends Component {
   render() {
@@ -12,11 +13,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Homepage goes here</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Thing
         </p>
+        <Drops />
         <Dropdown />
         <Dropup />
         <Dropleft />
