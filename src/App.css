@@ -2,19 +2,22 @@
   text-align: center;
 }
 
-.About {
-  width: 100px;
-  height: 20px;
-  border: 2px solid black;
-  color: #FFFFFF;
-  position: absolute; right: 0px; top: 136px;
-  cursor: pointer;
+.About-title {
+  padding-top: 20px;
+  postion: sticky;
+}
+
+.About-content {
+  font-size: large;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 1s linear;
   height: 80px;
-  position:sticky;
+  position: sticky;
 }
 
 .App-cat {
