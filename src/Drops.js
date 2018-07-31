@@ -16,8 +16,8 @@ class Drops extends Component {
   render() {
     return (
       <div onClick ={this.toggle} >
-        <div className="container">Drop-down</div>
-        {this.state.open && <div className="panel"/>}
+        <div className="dropdown-container">Drop-down</div>
+        {this.state.open && <div className="dropdown-panel"/>}
       </div>
     );
   }
