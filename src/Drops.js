@@ -20,6 +20,8 @@ class Drops extends Component {
           {this.state.open && <div className="dropdown-panel"/>}
         <div className="dropup-container">Drop-up</div>
           {this.state.open && <div className="dropup-panel"/>}
+        <div className="dropleft-container">Drop-left</div>
+          {this.state.open && <div className="dropleft-panel"/>}
       </div>
     );
   }

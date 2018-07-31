@@ -55,6 +55,21 @@
   position: absolute; left: 300px; top: 196px;
 }
 
+.dropleft-container {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  position: absolute; right: 300px; top: 300px;
+  cursor: pointer;
+}
+
+.dropleft-panel {
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+  position: absolute; right: 403px; top: 300px;
+}
+
 .App-header {
   background-color: #222;
   height: 120px;
