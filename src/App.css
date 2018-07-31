@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.About {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  color: #FFFFFF;
+  position: absolute; right: 0px; top: 136px;
+  cursor: pointer;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 1s linear;
   height: 80px;

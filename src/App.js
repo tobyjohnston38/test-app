@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import cat from './cat.svg';
 import './App.css';
+import About from './About'
 import Dropdown from './Dropdown'
 import Dropup from './Dropup'
 import Dropleft from './Dropleft'
@@ -19,6 +20,7 @@ class App extends Component {
         <div className="App-cat">
           <img src={cat} className="App-cat" alt="cat" />
         </div>
+          <About />
           <Drops />
           <Dropdown />
           <Dropup />
