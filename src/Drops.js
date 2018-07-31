@@ -17,7 +17,9 @@ class Drops extends Component {
     return (
       <div onClick ={this.toggle} >
         <div className="dropdown-container">Drop-down</div>
-        {this.state.open && <div className="dropdown-panel"/>}
+          {this.state.open && <div className="dropdown-panel"/>}
+        <div className="dropup-container">Drop-up</div>
+          {this.state.open && <div className="dropup-panel"/>}
       </div>
     );
   }
