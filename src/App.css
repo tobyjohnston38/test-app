@@ -47,12 +47,39 @@
   position: absolute; bottom: 0px;
 }
 
-.drops {
+.Home-header {
   width: 100px;
   height: 20px;
   border: 2px solid black;
   color: #FFFFFF;
   position: absolute; left: 0px; top: 136px;
+  cursor: pointer;
+}
+
+.About-header {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  color: #FFFFFF;
+  position: absolute; left: 110px; top: 136px;
+  cursor: pointer;
+}
+
+.Drops-header {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  color: #FFFFFF;
+  position: absolute; left: 220px; top: 136px;
+  cursor: pointer;
+}
+
+.Posts-header {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  color: #FFFFFF;
+  position: absolute; left: 330px; top: 136px;
   cursor: pointer;
 }
 
