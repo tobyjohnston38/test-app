@@ -30,6 +30,7 @@ class App extends Component {
           </header>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/drops" component={Drops} />
           <Route exact path="/posts" component={Posts} />
           <footer className="App-footer">
             <img src={logo} className="App-logo" alt="logo" />
