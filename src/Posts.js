@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cat from './cat.svg';
+// import cat from './cat.svg';
 
 class Posts extends Component {
   constructor(props) {

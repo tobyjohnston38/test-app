@@ -3,11 +3,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import About from './About'
-import Dropdown from './Dropdown'
-import Dropup from './Dropup'
-import Dropleft from './Dropleft'
-import Dropright from './Dropright'
-import Drops from './Drops'
 import Home from './Home'
 import Posts from './Posts'
 
