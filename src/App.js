@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
-import cat from './cat.svg';
 import './App.css';
 import About from './About'
 import Dropdown from './Dropdown'
@@ -8,29 +8,30 @@ import Dropup from './Dropup'
 import Dropleft from './Dropleft'
 import Dropright from './Dropright'
 import Drops from './Drops'
+import Home from './Home'
+import Posts from './Posts'
 
 class App extends Component {
   render() {
     return (
+        <Router>
         <div className="App">
           <header className="App-header">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/posts">Posts</Link>
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Homepage goes here</h1>
           </header>
-        <div className="App-cat">
-          <img src={cat} className="App-cat" alt="cat" />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/posts" component={Posts} />
+          <footer className="App-footer">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h1 className="footer-message">Fooooooter</h1>
+          </footer>
         </div>
-          <About />
-          <Drops />
-          <Dropdown />
-          <Dropup />
-          <Dropleft />
-          <Dropright />
-        <footer className="App-footer">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="footer-message">Fooooooter</h1>
-        </footer>
-        </div>
+        </Router>
     );
   }
 }
