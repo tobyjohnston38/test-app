@@ -6,6 +6,7 @@ import About from './About'
 import Home from './Home'
 import Drops from './Drops'
 import Posts from './Posts'
+import Stuff from './Stuff'
 
 class App extends Component {
   render() {
@@ -25,6 +26,9 @@ class App extends Component {
         <div className="Posts-header">
           <Link to="/posts">Posts</Link>
         </div>
+        <div className="Stuff-header">
+          <Link to="/stuff">Stuff</Link>
+        </div>
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Homepage goes here</h1>
           </header>
@@ -32,6 +36,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/drops" component={Drops} />
           <Route exact path="/posts" component={Posts} />
+          <Route exact path="/stuff" component={Stuff} />
           <footer className="App-footer">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="footer-message">Fooooooter</h1>
