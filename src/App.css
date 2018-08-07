@@ -155,6 +155,13 @@
   cursor: pointer;
 }
 
+.Counter-thing {
+  font-size: 1em;
+  color: #FFFFFF;
+  position: absolute; left: 40px; top: 200px;
+  cursor: pointer;
+}
+
 .footer-message {
   font-size: 1em;
 }
