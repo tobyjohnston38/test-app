@@ -137,6 +137,15 @@
   cursor: pointer;
 }
 
+.Stuff-header {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  color: #FFFFFF;
+  position: absolute; left: 440px; top: 96px;
+  cursor: pointer;
+}
+
 .Posts-header {
   width: 100px;
   height: 20px;
