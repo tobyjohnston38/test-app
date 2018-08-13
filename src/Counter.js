@@ -1,15 +1,42 @@
 import React, { Component } from "react";
 import "./App.css";
 
-class Counter extends Component {
+class Button extends Component {
+  handleClick = () => {
+    this.props.onClickFunction(this.props.incrementValue);
+  };
+
+  render() {
+    return (
+      <button onClick={this.handleClick}>+{this.props.incrementValue}</button>
+    );
+  }
+}
+
+const Result = props => {
+  return <div>{props.counter}</div>;
+};
+
+class App extends Component {
+  state = { counter: 0 };
+
+  incrementCounter = incrementValue => {
+    this.setState(prevState => ({
+      counter: prevState.counter + incrementValue
+    }));
+  };
+
   render() {
     return (
       <div>
-        <h1 className="counter-page">blah</h1>
-        <p className="counter-content">blah</p>
+        <Button incrementValue={1} onClickFunction={this.incrementCounter} />
+        <Button incrementValue={5} onClickFunction={this.incrementCounter} />
+        <Button incrementValue={10} onClickFunction={this.incrementCounter} />
+        <Button incrementValue={100} onClickFunction={this.incrementCounter} />
+        <Result counter={this.state.counter} />
       </div>
     );
   }
 }
 
-export default Counter;
+export default App;
