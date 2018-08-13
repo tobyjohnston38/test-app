@@ -29,11 +29,21 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Button incrementValue={1} onClickFunction={this.incrementCounter} />
-        <Button incrementValue={5} onClickFunction={this.incrementCounter} />
-        <Button incrementValue={10} onClickFunction={this.incrementCounter} />
-        <Button incrementValue={100} onClickFunction={this.incrementCounter} />
-        <Result counter={this.state.counter} />
+        <div className="counter-1">
+          <Button incrementValue={1} onClickFunction={this.incrementCounter} />
+        </div>
+        <div className="counter-5">
+          <Button incrementValue={5} onClickFunction={this.incrementCounter} />
+        </div>
+        <div className="counter-10">
+          <Button incrementValue={10} onClickFunction={this.incrementCounter} />
+        </div>
+        <div className="counter-100">
+          <Button incrementValue={100} onClickFunction={this.incrementCounter} />
+        </div>
+        <div className="counter-result">
+          <Result counter={this.state.counter} />
+        </div>
       </div>
     );
   }
