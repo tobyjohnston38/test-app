@@ -185,6 +185,13 @@
   cursor: pointer;
 }
 
+.Cards {
+  font-size: 1em;
+  color: #FFFFFF;
+  position: absolute; left: 40px; top: 250px;
+  cursor: pointer;
+}
+
 .Counter-thing {
   font-size: 1em;
   color: #FFFFFF;
