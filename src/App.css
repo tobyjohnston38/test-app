@@ -22,7 +22,7 @@
 
 .App-cat {
   height: 80px;
-  position: absolute; right: 430px; top: 150px;
+  position: relative; right: 0px; top: 100px;
 }
 
 .counter-1 {
