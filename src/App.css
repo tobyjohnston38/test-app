@@ -199,6 +199,13 @@
   cursor: pointer;
 }
 
+.Tic-tac {
+  font-size: 1em;
+  color: #FFFFFF;
+  position: absolute; left: 40px; top: 300px;
+  cursor: pointer;
+}
+
 .footer-message {
   font-size: 1em;
 }
