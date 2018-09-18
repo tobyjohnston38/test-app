@@ -26,36 +26,36 @@
 }
 
 .counter-page {
-
+  position: absolute; left: 630px; top: 170px;
 }
 
 .counter-1 {
   height: 80px;
-  position: absolute; left: 900px; top: 250px;
+  position: absolute; left: 20px; top: 100px;
   cursor: pointer;
 }
 
 .counter-5 {
   height: 80px;
-  position: absolute; left: 950px; top: 250px;
+  position: absolute; left: 60px; top: 100px;
   /* cursor: pointer; */
 }
 
 .counter-10 {
   height: 80px;
-  position: absolute; left: 1000px; top: 250px;
+  position: absolute; left: 100px; top: 100px;
   /* cursor: pointer; */
 }
 
 .counter-100 {
   height: 80px;
-  position: absolute; left: 1050px; top: 250px;
+  position: absolute; left: 145px; top: 100px;
   /* cursor: pointer; */
 }
 
 .counter-result {
   height: 200px;
-  position: absolute; left: 990px; top: 350px;
+  position: absolute; left: 100px; top: 180px;
   /* cursor: pointer; */
 }
 

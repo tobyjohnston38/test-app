@@ -28,7 +28,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="counter-page">
         <h1>Counter Thing</h1>
         <div className="counter-1">
           <Button incrementValue={1} onClickFunction={this.incrementCounter} />
