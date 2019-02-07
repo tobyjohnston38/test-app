@@ -3,25 +3,21 @@ import "./App.css";
 
 const axios = require("axios");
 
-const Card = props => {
-  return (
-    <div style={{ margin: "1.25em" }}>
-      <img width="75" src={props.avatar_url} alt="avatar_url" />
-      <div style={{ display: "inline-block", marginLeft: 10 }}>
-        <div
-          style={{
-            display: "inline-block",
-            fontSize: "1.25em",
-            fontWeight: "bold"
-          }}
-        >
-          {props.name}
-        </div>
-        <div>{props.location}</div>
-        <div style={{ fontSize: "1em" }}>{props.id}</div>
-      </div>
-    </div>
-  );
+const Card =  (props) => {
+    return (
+     <div style={{margin: '1.25em'}}>
+         <img width="75" src={props.avatar_url} alt="avatar img" />
+   <div style={{display: 'inline-block', marginLeft: 10}}>
+     <div style={{display: 'inline-block', fontSize: '1.25em', fontWeight: 'bold'}}>
+         {props.name}
+     </div>
+     <div>{props.location}</div>
+     <div style={{fontSize: '1em'}}>
+         {props.id}
+     </div>
+     </div>
+ </div>
+ );
 };
 
 const CardList = props => {
